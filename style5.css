@@ -1,0 +1,143 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+    height: 160px;
+    width: 1366px;
+    background-color: rgb(119, 118, 119);
+    color: rgba(215, 215, 236, 0.705);
+    padding: 25px;
+    font-weight: 600;
+    padding-left: 50px;
+    display: flex;
+}
+
+.header ul{
+    list-style: none;
+    display: flex;
+    padding: 20px;
+}
+
+.header ul li{
+    padding: 20px;
+}
+
+
+
+.IMG{
+    height: 100px;
+    width: 100px;
+    border-radius: 20px;
+}
+
+.navleft{
+    font-size: 20px;
+}
+
+
+.navright{
+    font-size: 20px;
+    margin-left: 250px;
+}
+li{
+    font-size: 25px;
+}
+
+.btn{
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+    border-color: aliceblue;
+    margin-left: 60px;
+}
+
+.section{
+    height: 500px;
+    width: 1366px;
+    background: linear-gradient(45deg, rgb(201, 126, 126), rgb(121, 121, 202));
+    display: flex;
+    color: aliceblue;
+}
+
+.left{
+    margin-top: 50px;
+    padding: 75px;
+    font-size: 30px;
+    
+}
+
+.light{
+    font-size: 12px;
+    margin-left: 20px;
+    font-size: small;
+
+    
+}
+
+.dark{
+    font-size: 12px;
+    color: rgb(0, 0, 0);
+    margin-left: 40px;
+    font-size: small;
+}
+
+.container{
+    margin-left: 430px;
+    display: flex;
+    
+}
+.row1{
+    height: 250px;
+    width: 250px;
+    background-color: aquamarine;
+}
+.row2{
+    height: 250px;
+    width: 250px;
+    background-color: rgb(201, 198, 20); 
+}
+.row3{
+    height: 250px;
+    width: 250px;
+    background-color: rgb(20, 68, 201); 
+}
+.row4{
+    height: 250px;
+    width: 250px;
+    background-color: rgb(201, 198, 20); 
+}
+.col2{
+    margin-left: 20px;
+}
+
+.col3{
+    margin-left: 1px;
+}
+.col4{
+    margin-left: 10px;
+}
+
+img{
+    border-radius: 20px;
+}
+
+.card-img-top{
+    height: 248px;
+    width: 250px;
+}
+.card-img-top-right{
+    height: 248px;
+    width: 250px;
+}
+.card-img-bottom{
+    height: 248px;
+    width: 250px;
+}
+.card-img-bottom-right{
+    height: 248px;
+    width: 250px;
+}
+
