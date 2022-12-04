@@ -7,13 +7,17 @@
 .header{
     height: 160px;
     width: 1366px;
-    background-color: rgb(119, 118, 119);
-    color: rgba(215, 215, 236, 0.705);
+    background-color: rgb(115, 190, 64);
+    color: rgba(0, 0, 7, 0.705);
     padding: 25px;
     font-weight: 600;
     padding-left: 50px;
     display: flex;
+    position: fixed;
+    top: 0;
 }
+
+
 
 .header ul{
     list-style: none;
@@ -46,20 +50,15 @@ li{
     font-size: 25px;
 }
 
-.btn{
-    height: 50px;
-    width: 100px;
-    border-radius: 10px;
-    border-color: aliceblue;
-    margin-left: 60px;
-}
+
 
 .section{
     height: 500px;
     width: 1366px;
-    background: linear-gradient(45deg, rgb(201, 126, 126), rgb(121, 121, 202));
+    background: linear-gradient(45deg, rgb(255, 2, 2), rgb(1, 1, 250));
     display: flex;
-    color: aliceblue;
+    color: rgb(0, 0, 0);
+    margin-top: 160px;
 }
 
 .left{
@@ -89,55 +88,97 @@ li{
     display: flex;
     
 }
-.row1{
-    height: 250px;
-    width: 250px;
-    background-color: aquamarine;
-}
-.row2{
-    height: 250px;
-    width: 250px;
-    background-color: rgb(201, 198, 20); 
-}
-.row3{
-    height: 250px;
-    width: 250px;
-    background-color: rgb(20, 68, 201); 
-}
-.row4{
-    height: 250px;
-    width: 250px;
-    background-color: rgb(201, 198, 20); 
-}
-.col2{
-    margin-left: 20px;
-}
 
-.col3{
-    margin-left: 1px;
-}
-.col4{
-    margin-left: 10px;
-}
 
-img{
-    border-radius: 20px;
-}
+
 
 .card-img-top{
     height: 248px;
     width: 250px;
+    border-radius: 150px;
+    
+    
 }
 .card-img-top-right{
     height: 248px;
     width: 250px;
+    border-radius: 150px;
+    
 }
 .card-img-bottom{
     height: 248px;
     width: 250px;
+    border-radius: 150px;
+    
 }
 .card-img-bottom-right{
     height: 248px;
     width: 250px;
+    border-radius: 150px;
+    
 }
 
+.row2{
+    margin-left: 30px;
+}
+
+.section2{
+    height: 500px;
+    width: 1366px;
+    background-color: rgb(111, 34, 212);
+    padding: 75px;
+    
+}
+
+.row{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(228, 233, 222);
+    display: flex;
+}
+
+.Card-img{
+    height: 200px;
+    width: 340px;
+    margin-left: 45px;
+    margin-top: 50px;
+}
+
+.myob{
+    margin-left: 55px;
+}
+
+.myob-caption{
+    margin-left: 55px;
+}
+
+.belimo{
+    margin-left: 55px;
+}
+
+.belimo-caption{
+    margin-left: 55px;
+}
+
+.lifegroup{
+    margin-left: 55px;
+}
+
+.lifegroup-caption{
+    margin-left: 55px;
+}
+
+.main{
+    height: 220px;
+    width: 1366px;
+    background-color: blueviolet;
+    padding: 75px;
+    text-align: center;
+    
+}
+
+.landing{
+    font-size: 60px;
+    font-weight: 900;
+}
+  
