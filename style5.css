@@ -54,7 +54,7 @@ li{
 
 .section{
     height: 500px;
-    width: 1366px;
+    width: 1360px;
     background: linear-gradient(45deg, rgb(255, 2, 2), rgb(1, 1, 250));
     display: flex;
     color: rgb(0, 0, 0);
@@ -181,4 +181,21 @@ li{
     font-size: 60px;
     font-weight: 900;
 }
+
+
   
+.section3{
+    height: 333px;
+    width: 1366px;
+    background-image: linear-gradient(rgb(241, 233, 233) 20%, rgb(143, 143, 209));
+    display: flex;
+    justify-content: space-between;
+    margin-left: 0px;
+   
+}
+
+
+.fit-picture{
+    width: 350px;
+    padding: 50px;
+}

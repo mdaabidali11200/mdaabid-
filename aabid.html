@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> aabid </title>
+    <style>
+        *{
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+        .navbar{
+            height: 444px;
+            width: 1366px;
+            background-color: aqua;
+            padding: 75px;
+        }
+        ul{
+            display: flex;
+            list-style: none;
+        }
+        li{
+            padding: 20px;
+            text-decoration: none;
+            font-size: 24px;
+            
+        }
+        .home{
+            font-size: 30px;
+            font-weight: bolder;
+            text-decoration: none;
+            border: none;
+        }
+        .home:hover{
+            background: #000;
+            color: rgb(255, 255, 255);
+            
+        }
+        .button {
+         display: inline-block;
+         padding: 15px 25px;
+         font-size: 24px;
+         cursor: pointer;
+         text-align: center;
+         text-decoration: none;
+         outline: none;
+         color: #fff;
+         background-color: #4CAF50;
+         border: none;
+         border-radius: 15px;
+         box-shadow: 0 9px #999;
+        }
+
+        .button:hover {
+            background-color: #02edf5;
+            color: black;
+        }
+        
+
+        .button:active {
+          background-color: #3e8e41;
+          box-shadow: 0 5px #666;
+          transform: translateY(4px);
+        }
+        .main{
+            margin-top: 20px;
+            width: 100px;
+             height: 100px;
+              background: red;
+              transition: width 2s, height 4s;
+           
+        }
+        .main:hover{
+            /* width: 100%;
+            transition: width 6s; */
+            width: 1200px;
+            height: 250px;
+            
+            
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <ul>
+            <button class="button">Home</button>
+            <li class="home"><a href="">About</a></li>
+            <li class="home"><a href="">Contacts</a></li>
+            <li class="home"><a href="">Services</a></li>
+            <li class="home"><a href="">Click Me</a></li>
+            
+        </ul>
+        <div class="main">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                Suscipit fugit consectetur nihil maxime impedit quo volu
+                ptate, exercitationem repellat veritatis, deserunt eius 
+                est obcaecati expedita voluptatibus, aperiam iusto et in
+                ventore earum fugiat incidunt.
+            </p>
+        </div>
+        
+    </div>
+</body>
+</html>
