@@ -3,32 +3,6 @@
     padding: 0;
     margin: 0;
 }
-
-.header{
-    height: 74px;
-    width: 100%;
-    background-color: #37517e;
-    position: fixed;
-    top: 0;
-    padding: 12px;
-    display: flex;
-}
-.logo{
-    color: #fff;
-}
-
-.navbar{
-    color: white;
-    display: flex;
-    
-}
-
-.ullist{
-    padding: 12px;
-    display: flex;
-    list-style: none;
-    margin-left: 460px;
-}
 a{
     padding: 11px;
     text-decoration-line: none;
@@ -41,13 +15,6 @@ a{
     font-weight: 700;
    
 }
- 
-
-
-
-
-
-
 .align-items-center {
     align-items: center!important;
 }
