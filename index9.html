@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style9.css">
+    <title> J.S. Practice</title>
+</head>
+<body>
+    <b>1 The Get Time Method</b>
+    <p id="demo"></p>
+   <b>2</b>
+    <p id="demo1"></p>
+    <b>3</b>
+    <p id="demo2"></p>
+    <b>4</b>
+    <p id="demo3"></p>
+    <b>5</b>
+    <p id="demo4"></p>
+    <b>6</b>
+    <p id="demo5"></p>
+    <b>7</b>
+    <p id="demo6"></p>
+    <b>8</b>
+    <p id="demo7"></p>
+    <b>9</b>
+    <b> new date mile second </b>
+    <p id="demo8"></p>
+    <b>10</b>
+    <p id="demo9"></p>
+    <b>11</b>
+    <p id="demo10"></p>
+    <b>12</b>
+    <p id="demo11"></p>
+    <b>13</b>
+    <p id="demo12"></p>
+    <b>14</b>
+    <b> to utc standard </b>
+    <p id="demo13"></p>
+    <b>15</b>
+    <b> get date method </b>
+    <p id="demo14"></p>
+    <b>16</b>
+    <p id="demo15"></p>
+    <b>17</b>
+    <p id="demo16"></p>
+    <b>18</b>
+    <p id="demo17"></p>
+    <b>19</b>
+    <p id="demo18"></p>
+    <b>20</b>
+    <p id="demo19"></p>
+    <b>21</b>
+    <p id="demo20"></p>
+    <b>22</b>
+    <p id="demo21"></p>
+    <b>23</b>
+    <p id="demo22"></p>
+    <b>24</b>
+    <p id="demo23"></p>
+    <b>25</b>
+    <p id="demo24"></p>
+    <b>26</b>
+    <p id="demo25"></p>
+    <b>27</b>
+    <p id="demo26"></p>
+    <b>28</b>
+    <p id="demo27"></p>
+    <b>29</b>
+    <p id="demo28"></p>
+    <b>30</b>
+    <p id="demo29"></p>
+    <b>31</b>
+    <p id="demo30"></p>
+    <b>32</b>
+    <p id="demo31"></p>
+    <b>33</b>
+    <p id="demo32"></p>
+    <b>34</b>
+    <p id="demo33"></p>
+    <b>35</b>
+    <p id="demo34"></p>
+    <b>36</b>
+    <p id="demo35"></p>
+    <b>37</b>
+    <p id="demo36"></p>
+    <b>38</b>
+    <p id="demo37"></p>
+    <b>39</b>
+    <p id="demo38"></p>
+    <b>40</b>
+    <p id="demo39"></p>
+    <b>41</b>
+    <p id="demo40"></p>
+    <b>42</b>
+    <p id="demo41"></p>
+    <b>43</b>
+    <p id="demo42"></p>
+    <b>44</b>
+    <p id="demo43"></p>
+    <b>45</b>
+    <p id="demo44"></p>
+    <b>46</b>
+    <p id="demo45"></p>
+    <b>47</b>
+    <p id="demo46"></p>
+    <b>48</b>
+    <p id="demo47"></p>
+    <b>49</b>
+    <p id="demo48"></p>
+    <b>50</b>
+    <p id="demo49"></p>
+    <script>
+
+        const d = new Date("1970-01-01");
+        document.getElementById("demo").innerHTML = d.getTime(); 
+
+        const d1 = new Date("2021-03-25");
+        document.getElementById("demo1").innerHTML = d1.getHours();
+
+        const d2 = new Date("October 13, 2014 11:13:00");
+        document.getElementById("demo2").innerHTML = d2;
+          
+        const d3 = new Date("2022-03-25");
+        document.getElementById("demo3").innerHTML = d3;
+       
+        const d4 = new Date(2018, 11, 24, 10, 33, 30, 0);
+        document.getElementById("demo4").innerHTML = d4;
+
+        const d5 = new Date(2018, 11, 24, 10, 33);
+        document.getElementById("demo5").innerHTML = d5;
+
+        const d6 = new Date(2018, 11, 24, 10);
+        document.getElementById("demo6").innerHTML = d6;
+
+        const d7 = new Date(2018, 11);
+        document.getElementById("demo7").innerHTML = d7;
+
+        const d8 = new Date(2018);
+        document.getElementById("demo8").innerHTML = d8;
+
+        const d9 = new Date(100000000000);
+        document.getElementById("demo9").innerHTML = d9;
+
+        const d10 = new Date(86400000);
+        document.getElementById("demo10").innerHTML = d10;
+
+        const d11 = new Date(-100000000000);
+        document.getElementById("demo11").innerHTML = d11;
+
+        const d12 = new Date(0);
+        document.getElementById("demo12").innerHTML = d12;
+
+       const d13 = new Date("2021-03-25");
+       document.getElementById("demo13").innerHTML = d13.getTime();
+
+       const gtime = new Date();
+       document.getElementById("demo14").innerHTML = gtime.getTime();
+      
+       const date = Date.now();
+       document.getElementById("demo15").innerHTML = date;
+
+       // Calculate milliseconds in a year
+         const minute = 1000 * 60;
+         const hour = minute * 60;
+         const day = hour * 24;
+         const year = day * 365;
+
+       // Divide Date.now() with a year
+       let years = Math.round(Date.now() / year);
+       document.getElementById("demo16").innerHTML = years;
+
+       const d17 = new Date();
+       document.getElementById("demo17").innerHTML = d17.getTimezoneOffset();
+        </script>
+</body>
+</html>
